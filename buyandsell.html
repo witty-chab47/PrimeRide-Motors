@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>PrimeRide Motors - Contact & Trade-In</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">PrimeRide Motors</div>
+        <nav>
+            <ul>
+                <li><a href="hompage.html">Home</a></li>
+                <li><a href="inventory.html">Inventory</a></li>
+                <li><a href="buyandsell.html">Inquire / Sell</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Vehicle Inquiry or Trade-In Form</h1>
+        <p id="interesting">Interested in a specific model or want to list your second-hand car with us? Fill out the form below.</p>
+
+        <form action="#" method="POST" style="margin-top: 1.5rem;">
+            <div class="form-group">
+                <label for="fullname">Full Name:</label>
+                <input type="text" id="fullname" name="fullname" placeholder="John Doe" required>
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email" placeholder="john@example.com" required>
+            </div>
+
+            <div class="form-group">
+                <label for="inquiry-type">Inquiry Type:</label>
+                <select id="inquiry-type" name="inquiry_type">
+                    <option value="buy">Inquiring About a Listed Car</option>
+                    <option value="sell">Want to Sell / Trade-In My Car</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="message">Message / Car Details:</label>
+                <textarea id="message" name="message" rows="5" placeholder="Mention the car model or details about your trade-in..."></textarea>
+            </div>
+
+            <button type="submit" class="btn">Submit Request</button>
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 PrimeRide Motors. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
